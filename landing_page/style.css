@@ -1,0 +1,171 @@
+body{
+  background-color:#eeeeee;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+#paragraph{
+
+    max-height:300px;;
+}
+
+#hero>h1{
+    font-style: normal;
+    align-content: center;
+    size: 20px;;
+}
+#hero{
+    margin-top:60px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width:270px;
+    height:25px;
+}
+
+#logo{
+    margin:auto 0;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+#logo>img{
+    max-width:20vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+li{
+    list-style:none;
+    padding: 0 50px;
+
+}
+button{
+    
+    margin-top:8px;
+    background-color:#f1c40f; 
+    max-width:150px;
+    height: 30px;
+    width:100%;
+    align-self: center;
+   border:0;
+}
+
+
+header{
+    width: 99%;
+    position:fixed;
+    top:0%;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+.info,ul{
+    font-size:25px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#container{
+margin-top:100px;
+display:flex;
+flex-direction: column;
+}
+
+#Features_id,#working{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#Pricing{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+#info_feat>h2{
+    align-self: flex-start;
+    font-size: 30px;
+    margin:0;
+}
+
+#info_feat>p{
+    margin:0;
+    padding:0;
+}
+
+.icon{
+    color:darkorange;
+    margin:0;
+    width: 15vw;;
+    display:flex;
+    height:125px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#info_work>h2{
+    align-self: flex-start;
+    font-size: 30px;
+    margin:0;
+}
+
+#info_work>p{
+    margin:0;
+    padding:0;
+}
+
+#_price>h2{
+    align-self: flex-start;
+    font-size: 30px;
+    margin:0;
+}
+
+#_price>p{
+    margin:0;
+    padding:0;
+}
+
+#grid{
+min-width: 50vw;
+}
+
+
+#how_its{
+    display: flex;
+    justify-content: center;
+    margin:40px;
+}
+
+iframe{
+    width: 550px;
+}
+
+#nav_container{
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
