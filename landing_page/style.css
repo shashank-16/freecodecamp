@@ -169,3 +169,100 @@ iframe{
     padding: 0;
 }
 
+#boxes{
+    display:flex;
+    justify-content: center;
+    max-width:50vw;
+}
+
+#box-1,#box-2,#box-3{
+
+    border:1px;
+    border-style:solid;
+    border-radius:5px;
+    padding:0;
+    margin:10px;
+    align-items: center;
+    min-width: 15vw;
+    min-height:15vw;
+    
+}
+
+.heading-box{
+    background-color: #dddddd;
+    margin:0;
+    text-align: center;
+}
+
+.heading-box>h2{
+    font-size:18px;
+    text-align: center;
+    margin:0;
+    padding:10px;
+    /* background-color:#dddddd; */
+}
+
+.info_boxes>h3{
+ text-align: center;
+}
+
+.priceses>h2{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 2px;
+}
+
+.info_boxes{
+    font-size:16px;
+    margin:5px;
+    min-height: 7vw;
+    display: flex;
+  
+   justify-content: center;
+}
+
+#olol{
+    text-align: center;
+    /* margin:0 4px 0 4px;/ */
+    padding:0;
+    
+}
+
+#olol>li{
+    margin:2px;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #dddddd;
+    padding:10px;
+    max-width: 47vw;
+    margin:auto;
+
+}
+
+
+footer>ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:5px;
+    padding:0;
+    
+}
+
+footer>ul>li{
+    font-size:22px;
+    padding:5px;
+
+}
+
+footer>p{
+    margin:0;
+    padding:0;
+    text-align: end;
+}
